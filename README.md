@@ -38,7 +38,7 @@ Supported by National Energy SO Open Data. [NESO Open Data Licence](https://www.
 
 ## Data and Workflow
 
-Provide a numeric measurement and a known time index, such as a date column or the timing metadata in an R time-series object. Use a consistent observation interval and enough history to see the proposed cycle repeat. Units, group labels, and time zone information help the skill interpret the series correctly.
+Provide a numeric measurement and a known time index, such as a date column or the timing metadata in an R time-series object. Use a consistent observation interval and enough history to see the proposed cycle repeat. Units, group labels, and time zone information help the skill interpret the series correctly. Input can be provided as CSV, TSV, or other delimited text files, Excel workbooks (.xlsx or .xls), or accessible R datasets and time-series objects. Excel and other structured formats require suitable import tools. Each dataset should contain a numeric measurement and dates or timestamps, or documented timing information. Examples include hourly traffic counts, daily sales, weekly visits, and monthly bookings. The skill checks whether the observation interval, data quality, and available history support the selected seasonal decomposition method.
 
 1. **Inspect the data.** Check the time grid, gaps, duplicates, and how many seasonal cycles were actually observed. Preserve the original data, ask about consequential preparation choices, and flag any values that are filled or excluded.
 2. **Set the objective.** Use the question you provide or choose from questions tailored to the data. A general report covers the underlying direction, recurring highs and lows, and unusual observations when the evidence supports them.
