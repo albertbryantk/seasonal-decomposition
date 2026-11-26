@@ -1,0 +1,19 @@
+---
+name: seasonal-decomposition
+description: >-
+  Analyze recurring patterns in numeric time series with R. Use when someone uploads dated data and wants to understand its trend, seasonal highs or lows, seasonal changes, or unusual observations. Check the data, help the user choose a question and method, and deliver verified reports in HTML, Markdown, and Quarto. Future forecasting and causal inference are outside scope.
+---
+
+# Seasonal Decomposition
+
+Explain historical patterns to a reader new to time series. Use the user's language preference and default to English. Calculate and verify numerical findings in R.
+
+1. **Inspect before offering goals.** Use [the readiness checklist](references/checklist.md) to identify the numeric series, its meaning and units, time index, observation interval, date range, groups, data quality, and available seasonal history. Check whether a supported decomposition is feasible. If the data are unsuitable, explain the specific issue and offer a practical correction or whatever descriptive findings the data support. Preserve the original. Ask one focused question when a material choice about the series or its preparation remains unresolved. Record any changes and flag filled or excluded observations.
+2. **Set the objective.** Follow [the decision tree](references/decision-tree.md). Use a clear question already supplied. Otherwise suggest questions tied to this dataset and offer both a general report and a free-text choice. Wait for the user to choose the objective.
+3. **Recommend suitable methods.** Explain why each candidate fits this series and question. Let the user choose, accept the recommendation, or request another method. Fit after the user chooses a suitable plan or delegates the choice. A general report usually uses one suitable method and is limited to three distinct methods. Check implementation requirements and justify seasonal periods in observations and calendar terms. Set routine parameters and explain material settings.
+4. **Fit and verify in R.** Use [the methods reference](references/methods.md) for classical additive, classical multiplicative, STL, MSTL, X-11, SEATS, and STR. Check the selected method's software and data requirements, including missing values and transformation domains. Confirm timestamp alignment and reconstruction on the appropriate scale, then inspect remaining patterns and fit warnings. Keep the analysis code, components, settings, diagnostics, and software versions. If execution is unavailable, give runnable R code and identify pending results.
+5. **Deliver all three report formats.** Save `report.html`, `report.md`, and `report.qmd` together. Follow [the report specification](references/report-spec.md) for the dataset introduction, method rationale, worked example, figures and their explanations, diagnostics, limitations, conclusion, references, and reproducibility. Open the HTML and verify all three files and their assets. Give the main answer first in chat and link all three reports.
+
+For a general report, explain the underlying direction, clearest recurring highs and lows, their magnitude, and notable unusual observations the evidence supports. Discuss changing seasonality only when both the method and the history support it. Internal modeling used by a decomposition is in scope. Interpret the results as descriptions of the available history.
+
+If `Rscript` is absent from `PATH`, check installed R locations before treating it as unavailable. On Windows, also check `C:\Program Files\R\R-*\bin\Rscript.exe` and use the installed executable's full path. If X-13 finds its executable but fails to open a generated specification in the default temporary directory, retry with `TMPDIR` set to a short, writable scratch path before starting R. Confirm with `seasonal::checkX13(fail = TRUE)`.
