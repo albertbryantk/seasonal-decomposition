@@ -72,11 +72,11 @@ See the [methods reference](references/methods.md) for runnable R examples, depe
 
 | File | Purpose |
 | --- | --- |
-| [`SKILL.md`](SKILL.md) | Main instructions for the analysis workflow |
-| [`references/checklist.md`](references/checklist.md) | Data readiness and method requirements |
-| [`references/decision-tree.md`](references/decision-tree.md) | How the skill moves from the user's question to a suitable method |
-| [`references/methods.md`](references/methods.md) | R examples and verification checks for all seven methods |
-| [`references/report-spec.md`](references/report-spec.md) | Report structure and final checks |
+| [`SKILL.md`](seasonal-decomposition/SKILL.md) | Main instructions for the analysis workflow |
+| [`references/checklist.md`](seasonal-decomposition/references/checklist.md) | Data readiness and method requirements |
+| [`references/decision-tree.md`](seasonal-decomposition/references/decision-tree.md) | How the skill moves from the user's question to a suitable method |
+| [`references/methods.md`](seasonal-decomposition/references/methods.md) | R examples and verification checks for all seven methods |
+| [`references/report-spec.md`](seasonal-decomposition/references/report-spec.md) | Report structure and final checks |
 
 ## References
 
