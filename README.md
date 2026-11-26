@@ -60,7 +60,7 @@ When the history or time grid cannot support a seasonal fit, the skill explains 
 | SEATS | Seasonal adjustment based on a suitable seasonal ARIMA model at a supported calendar frequency | `seasonal` and a working X-13 executable |
 | STR | Flexible seasonal patterns, such as fractional periods, custom calendars, or models with predictors | `stR` |
 
-See the [methods reference](references/methods.md) for runnable R examples, dependency checks, and interpretation details.
+See the [methods reference](seasonal-decomposition/references/decision-tree.md) for runnable R examples, dependency checks, and interpretation details.
 
 ## Reports and Reproducibility
 
