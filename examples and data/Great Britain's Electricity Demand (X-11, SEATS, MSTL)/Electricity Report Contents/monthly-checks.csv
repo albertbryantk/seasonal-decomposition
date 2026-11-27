@@ -1,3 +1,0 @@
-"method","positions","raw_error","adjusted_error","tolerance_mw","raw_qs","adjusted_qs","adjusted_qs_p","irregular_lag12","lag12_pairs","warnings","notes"
-"X-11",142,1.85536919161677e-10,1.78260961547494e-10,1e-06,152.72055,0,1,-0.14487719540243,130,"At least one visually significant trading day peak has been found in the estimated spectrum of the regARIMA residuals. ",""
-"SEATS",142,2.11002770811319e-10,1.67347025126219e-10,1e-06,152.72055,0,1,-0.128951634639318,130,"At least one visually significant trading day peak has been found in the estimated spectrum of the regARIMA residuals.  | At least one visually significant trading day peak has been found in one or more of the estimated spectra. ",""
