@@ -1,0 +1,102 @@
+:root {
+  --ink: #182b36;
+  --muted: #445e68;
+  --accent: #0b625e;
+  --line: #d6e1df;
+  --wash: #edf5f1;
+  --paper: #fafcfb;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.64;
+}
+
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+#title-block-header {
+  padding: clamp(1.1rem, 4vw, 2.7rem);
+  margin-top: 0.25rem;
+  margin-bottom: 2.8rem;
+  background: #12373c;
+  color: #f5fffc;
+  border-bottom: 5px solid #6ed0b5;
+}
+
+#title-block-header .title {
+  font-size: clamp(2.1rem, 5vw, 3.65rem);
+  line-height: 1.1;
+  letter-spacing: -0.045em;
+}
+
+#title-block-header .subtitle {
+  margin: 0.85rem 0 0;
+  font-size: clamp(1.02rem, 2.5vw, 1.25rem);
+  color: #daeee8;
+}
+
+main { min-width: 0; }
+
+main h2 {
+  margin-top: 3.3rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid #7ea99e;
+  color: #123f42;
+  font-size: clamp(1.55rem, 3vw, 2.03rem);
+  letter-spacing: -0.024em;
+}
+
+main h3 {
+  margin-top: 2.15rem;
+  font-size: 1.41rem;
+  letter-spacing: -0.02em;
+}
+
+main h4 {
+  margin-top: 2.1rem;
+  font-size: 1.18rem;
+  font-weight: 680;
+}
+
+#TOC a { font-size: 0.87rem; line-height: 1.35; }
+#TOC .active { color: var(--accent); border-left-color: var(--accent); }
+
+.workflow {
+  margin: 1rem 0;
+  padding: 0.8rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.workflow .mermaid { min-width: 600px; margin: 0; }
+
+.presentation-table {
+  overflow-x: auto;
+  margin: 1rem 0 1.45rem;
+}
+
+.presentation-table:focus-visible { outline: 2px solid var(--accent); }
+.presentation-table table { margin: 0; border-color: var(--line); }
+main table { font-size: 0.93rem; }
+main table th { background: var(--wash); vertical-align: top; }
+main table th, main table td { padding: 0.58rem 0.65rem !important; }
+main table tbody tr:nth-child(even) td { background: #f4f8f7; }
+
+main figure { margin: 1rem 0 0.55rem; }
+main figure img { width: 100%; height: auto; border: 1px solid var(--line); background: white; }
+main figcaption { color: var(--muted); font-size: 0.88rem; }
+
+main blockquote { border-color: #7ea99e; color: var(--muted); }
+main .math.display { display: block; overflow-x: auto; padding: 0.2rem 0; }
+
+@media print {
+  body { background: white; }
+  #title-block-header { background: white; color: var(--ink); }
+  #title-block-header .subtitle { color: var(--muted); }
+  h2, h3, h4 { break-after: avoid; }
+  figure, tr { break-inside: avoid; }
+}
