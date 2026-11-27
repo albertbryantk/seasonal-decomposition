@@ -1,0 +1,3 @@
+"month","method","observed_mw","observed_status","component_status","seasonal_factor","adjusted_mw","trend_mw","irregular_factor","combined_factor","calendar_factor"
+2026-01-01,"X-11",32887.4086021505,"observed_mean","estimated",1.21928844947674,26984.1201397215,26676.6522095319,1.0115257314814,1.21876898086216,0.999573957569431
+2026-01-01,"SEATS",32887.4086021505,"observed_mean","estimated",1.19632783506388,27502.0149505244,27072.2616139417,1.01587430495136,1.19581814864527,0.999573957569429

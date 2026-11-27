@@ -1,0 +1,49 @@
+"method","month_number","month_name","contribution_million","multiplicative_factor"
+"Classical additive",1,"Jan",-5446.80347222222,
+"Classical additive",2,"Feb",-6149.95972222222,
+"Classical additive",3,"Mar",2670.95277777778,
+"Classical additive",4,"Apr",825.998611111114,
+"Classical additive",5,"May",4820.74861111111,
+"Classical additive",6,"Jun",2551.57152777778,
+"Classical additive",7,"Jul",3245.93611111111,
+"Classical additive",8,"Aug",2965.57152777778,
+"Classical additive",9,"Sep",-2028.88680555555,
+"Classical additive",10,"Oct",-156.88680555556,
+"Classical additive",11,"Nov",-3740.17847222222,
+"Classical additive",12,"Dec",441.936111111105,
+"Classical multiplicative",1,"Jan",-5376.76354006169,0.92510474052297
+"Classical multiplicative",2,"Feb",-6037.7142654538,0.915898072662102
+"Classical multiplicative",3,"Mar",2644.04025796943,1.0368299776832
+"Classical multiplicative",4,"Apr",848.931365861795,1.01182513131751
+"Classical multiplicative",5,"May",4842.87715220394,1.06745852560322
+"Classical multiplicative",6,"Jun",2548.57633138922,1.03550021945622
+"Classical multiplicative",7,"Jul",3251.98111484116,1.04529824821116
+"Classical multiplicative",8,"Aug",2900.87355274313,1.04040751947225
+"Classical multiplicative",9,"Sep",-2052.46866296197,0.971410278332745
+"Classical multiplicative",10,"Oct",-197.773611525167,0.997245126023765
+"Classical multiplicative",11,"Nov",-3789.12286004981,0.947219672637767
+"Classical multiplicative",12,"Dec",416.563165043826,1.00580248807709
+"STL",1,"Jan",-5702.97955360144,
+"STL",2,"Feb",-5946.88413100215,
+"STL",3,"Mar",2832.93921755303,
+"STL",4,"Apr",543.181579903677,
+"STL",5,"May",4958.07297914142,
+"STL",6,"Jun",2561.6098543499,
+"STL",7,"Jul",3319.5195350812,
+"STL",8,"Aug",3154.75602668338,
+"STL",9,"Sep",-1941.08312725484,
+"STL",10,"Oct",-216.539541085798,
+"STL",11,"Nov",-3835.66139705518,
+"STL",12,"Dec",417.317583814143,
+"STR",1,"Jan",-5804.94186357223,
+"STR",2,"Feb",-6056.57084700717,
+"STR",3,"Mar",2568.66842802142,
+"STR",4,"Apr",783.145672253036,
+"STR",5,"May",5099.3955525796,
+"STR",6,"Jun",2696.75479626893,
+"STR",7,"Jul",3481.26014071306,
+"STR",8,"Aug",3222.67779383265,
+"STR",9,"Sep",-1839.16527930185,
+"STR",10,"Oct",-310.716473661574,
+"STR",11,"Nov",-3717.24792917786,
+"STR",12,"Dec",46.4109547773101,
